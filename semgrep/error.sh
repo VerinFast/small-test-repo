@@ -20,3 +20,6 @@ eval $(curl -L https://raw.githubusercontent.com/something)
 
 # ok: curl-eval
 eval "x=1"
+
+
+foo
