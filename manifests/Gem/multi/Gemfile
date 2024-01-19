@@ -1,0 +1,18 @@
+# Gemfile
+
+# Specify the Ruby version
+ruby '2.7.3'
+
+# Use gems from RubyGems
+source 'https://rubygems.org'
+
+# Rails gem from RubyGems
+gem 'rails', '6.1.4'
+
+# Use gems from a custom Git repository
+source 'https://github.com/example/gems.git' do
+  gem 'custom_gem', '1.0.0'
+end
+
+# Another gem from RubyGems
+gem 'another_gem', '2.3.1'

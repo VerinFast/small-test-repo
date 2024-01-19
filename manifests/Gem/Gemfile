@@ -1,0 +1,45 @@
+# Gemfile
+
+# Specify the Ruby version
+ruby '2.7.3'
+
+# Define the source for gems
+source 'https://rubygems.org'
+
+# Rails gem for web development
+gem 'rails', '6.1.4'
+
+# Database adapter for PostgreSQL
+gem 'pg', '1.2.3'
+
+# Authentication gem
+gem 'devise', '4.8.1'
+
+# Image processing and manipulation
+gem 'carrierwave', '2.1.0'
+gem 'mini_magick', '4.11.0'
+
+# Background job processing
+gem 'sidekiq', '6.2.1'
+
+# Front-end framework
+gem 'bootstrap', '4.6.0'
+
+# Testing framework
+group :test, :development do
+  gem 'rspec-rails', '5.0.1'
+  gem 'factory_bot_rails', '6.2.0'
+  gem 'faker', '2.18.0'
+end
+
+# Production server deployment
+group :production do
+  gem 'puma', '5.5.0'
+end
+
+# Development and debugging
+group :development do
+  gem 'pry', '0.14.1'
+  gem 'better_errors', '2.11.0'
+  gem 'binding_of_caller', '0.8.0'
+end
