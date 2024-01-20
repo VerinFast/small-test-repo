@@ -1,7 +1,7 @@
 # Gemfile
 
 # Specify the Ruby version
-ruby '2.7.3'
+# ruby '2.7.3'
 
 # Use gems from RubyGems
 source 'https://rubygems.org'
